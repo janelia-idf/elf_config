@@ -81,6 +81,7 @@ volume_crossover: 6
 volume_max: 10
 volume_threshold_initial: 1.0
 pre_dispense_volume_duration: 2
+post_dispense_volume_duration: 4
 protocol:
 - chemical: heptane
   prime_count: 1
