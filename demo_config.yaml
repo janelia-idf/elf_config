@@ -63,8 +63,8 @@ prime_duration: 10
 prime_aspirate_duration: 15
 load_duration_full: 6
 dispense_duration_full: 6
-chemical_aspirate_duration: 40
-chemical_separate_duration: 40
+chemical_aspirate_duration: 10
+chemical_separate_duration: 10
 shake_speed_min: &shake_speed_min 200
 shake_speed_max: &shake_speed_max 3000
 aspirate_shake_speed: 200
@@ -83,6 +83,15 @@ volume_threshold_initial: 1.0
 pre_dispense_volume_duration: 2
 post_dispense_volume_duration: 4
 protocol:
+- chemical: pbt
+  prime_count: 0
+  dispense_volume: 10
+  shake_speed: 100
+  shake_duration: 5
+  post_shake_duration: 0
+  separate: false
+  aspirate: true
+  repeat: 0
 - chemical: heptane
   prime_count: 1
   dispense_volume: 2
