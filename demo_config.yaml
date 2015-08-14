@@ -61,8 +61,8 @@ setup_duration: 10
 system_prime_count: 1
 prime_duration: 10
 prime_aspirate_duration: 15
-load_duration_full: 6
-dispense_duration_full: 6
+load_duration_full: 10
+dispense_duration_full: 8
 chemical_aspirate_duration: 10
 chemical_separate_duration: 10
 shake_speed_min: &shake_speed_min 200
