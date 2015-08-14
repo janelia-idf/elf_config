@@ -1,24 +1,38 @@
 head:
   primer:
-    analog_input: 0
+    analog_inputs:
+      low: 0
+      high: 8
     channel: 8
   quad1:
-    analog_input: 1
+    analog_inputs:
+      low: 1
+      high: 9
     channel: 9
   quad2:
-    analog_input: 2
+    analog_inputs:
+      low: 2
+      high: 10
     channel: 10
   quad3:
-    analog_input: 3
+    analog_inputs:
+      low: 3
+      high: 11
     channel: 11
   quad4:
-    analog_input: 4
+    analog_inputs:
+      low: 4
+      high: 12
     channel: 12
   quad5:
-    analog_input: 5
+    analog_inputs:
+      low: 5
+      high: 13
     channel: 13
   quad6:
-    analog_input: 6
+    analog_inputs:
+      low: 6
+      high: 14
     channel: 14
   system:
     channel: 15
