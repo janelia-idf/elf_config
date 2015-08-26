@@ -61,7 +61,7 @@ setup_duration: 10
 system_prime_count: 1
 prime_duration: 10
 prime_aspirate_duration: 15
-load_duration_full: 10
+load_duration_full: 15
 dispense_duration_full: 8
 chemical_aspirate_duration: 10
 chemical_separate_duration: 10
@@ -86,8 +86,8 @@ protocol:
 - chemical: pbt
   prime_count: 0
   dispense_volume: 10
-  shake_speed: 100
-  shake_duration: 5
+  shake_speed: 200
+  shake_duration: 10
   post_shake_duration: 0
   separate: false
   aspirate: true
@@ -96,8 +96,8 @@ protocol:
   prime_count: 1
   dispense_volume: 2
   shake_speed: 200
-  shake_duration: 5
-  post_shake_duration: 2
+  shake_duration: 10
+  post_shake_duration: 4
   separate: false
   aspirate: false
   repeat: 0
@@ -105,8 +105,8 @@ protocol:
   prime_count: 1
   dispense_volume: 2
   shake_speed: 1500
-  shake_duration: 5
-  post_shake_duration: 2
+  shake_duration: 10
+  post_shake_duration: 4
   separate: true
   aspirate: true
   repeat: 0
@@ -115,7 +115,7 @@ protocol:
   dispense_volume: 2
   shake_speed: 0
   shake_duration: 0
-  post_shake_duration: 2
+  post_shake_duration: 4
   separate: true
   aspirate: false
   repeat: 1
@@ -133,7 +133,7 @@ protocol:
   dispense_volume: 5
   shake_speed: 100
   shake_duration: 5
-  post_shake_duration: 0
+  post_shake_duration: 4
   separate: false
   aspirate: true
   repeat: 0
