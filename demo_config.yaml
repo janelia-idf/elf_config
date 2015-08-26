@@ -57,11 +57,11 @@ manifold:
     channel: 29
   separate:
     channel: 30
-setup_duration: 10
+setup_duration: 20
 system_prime_count: 1
 prime_duration: 10
 prime_aspirate_duration: 15
-load_duration_full: 15
+load_duration_full: 20
 dispense_duration_full: 8
 chemical_aspirate_duration: 10
 chemical_separate_duration: 10
