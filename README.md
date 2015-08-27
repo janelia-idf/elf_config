@@ -1,5 +1,5 @@
-hybridizer_config
-=================
+elf_config
+==========
 
 Authors:
 
