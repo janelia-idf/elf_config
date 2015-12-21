@@ -31,3 +31,4 @@ head:
     channel: 6
   system:
     channel: 7
+adc_sample_count: 11
