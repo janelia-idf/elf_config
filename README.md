@@ -1,5 +1,4 @@
-elf_config
-==========
+#elf_config
 
 Authors:
 
