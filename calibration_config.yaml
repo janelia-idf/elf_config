@@ -32,3 +32,7 @@ head:
   system:
     channel: 7
 adc_sample_count: 11
+fill_duration_inc: 500
+fill_duration_max: 10000
+run_count: 3
+weight_sample_count: 11
