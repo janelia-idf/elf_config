@@ -44,8 +44,11 @@ balance_zero_duration: 4
 adc_sample_count: 11
 fill_duration_inc: 500
 fill_duration_max: 12000
-run_count: 1
+run_count: 5
 weight_sample_count: 11
 dispense_goals:
+  - 5
+  - 4
+  - 3
   - 2
   - 1
