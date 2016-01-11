@@ -82,6 +82,7 @@ volume_max: 10
 volume_threshold_initial: 1.0
 pre_cylinder_fill_duration: 2
 post_cylinder_fill_duration: 4
+balance_zero_duration: 4
 protocol:
 - chemical: heptane
   prime_count: 1

@@ -31,8 +31,21 @@ head:
     channel: 6
   system:
     channel: 7
+fill_duration_full: 20
+dispense_duration_full: 10
+pre_cylinder_fill_duration: 2
+post_cylinder_fill_duration: 4
+volume_crossover: 6
+volume_max: 10
+volume_threshold_initial: 1.0
+fill_duration_all_cylinders: 250
+fill_duration_one_cylinder: 100
+balance_zero_duration: 4
 adc_sample_count: 11
 fill_duration_inc: 500
 fill_duration_max: 12000
-run_count: 5
+run_count: 1
 weight_sample_count: 11
+dispense_goals:
+  - 2
+  - 1
