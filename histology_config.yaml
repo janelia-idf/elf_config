@@ -89,35 +89,27 @@ protocol:
   post_shake_duration: 5
   aspirate: true
   repeat: 0
-- chemical: methanol
+- chemical: pbst
   prime_count: 1
   dispense_volume: 2
-  shake_speed: 1500
-  shake_duration: 10
+  shake_speed: 500
+  shake_duration: 900
+  post_shake_duration: 5
+  aspirate: true
+  repeat: 2
+- chemical: secondary
+  prime_count: 0
+  dispense_volume: 2
+  shake_speed: 500
+  shake_duration: 7200
   post_shake_duration: 4
   aspirate: true
   repeat: 0
-- chemical: methanol
-  prime_count: 0
-  dispense_volume: 2
-  shake_speed: 0
-  shake_duration: 0
-  post_shake_duration: 4
-  aspirate: false
-  repeat: 1
-- chemical: methanol
-  prime_count: 0
-  dispense_volume: 2
-  shake_speed: 0
-  shake_duration: 0
-  post_shake_duration: 0
-  aspirate: true
-  repeat: 0
-- chemical: pbt
+- chemical: pbs
   prime_count: 1
-  dispense_volume: 5
-  shake_speed: 100
-  shake_duration: 5
-  post_shake_duration: 4
+  dispense_volume: 2
+  shake_speed: 500
+  shake_duration: 900
+  post_shake_duration: 5
   aspirate: true
-  repeat: 0
+  repeat: 2
