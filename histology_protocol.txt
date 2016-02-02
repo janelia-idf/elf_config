@@ -1,0 +1,51 @@
+PROTOCOL FOR ELF FLUORESCENT LABELING        1/15/2016
+
+Received by machine:  tissue floating in PBS (how do you program removal of this?)
+
+
+Chemical:  Blocking Solution
+Prime Count: 0
+Dispense Volume:  2  (500 ul per well)
+Shake Speed:  Yes ( ? )
+Shake Duration:  1800 sec
+Post Shake Duration:  5 sec
+Aspirate:  True
+Repeat:  0
+
+Chemical:  primary antibody
+Prime count:  0
+Dispense Volume:  2
+Shake Speed:  Yes
+Shake Duration:  10,400 at Room Temperature
+Post Shake Duration:  5
+Aspirate:  True
+Repeat:  0
+
+Chemical:  PBS-T
+Prime Count:  Yes
+Dispense Volume:  2
+Shake Speed:  Yes
+Shake Duration:  900 sec
+Post Shake Duration:  5
+Aspirate:  True
+Repeat:  2
+
+Chemical:  Secondary Antibody
+Prime Count:  0
+Dispense Volume:  2
+Shake Speed:  Yes
+Shake Duration:  7200 sec
+Post Shake Duration:  5
+Aspirate:  True
+Repeat:  0
+
+Chemical:  PBS
+Prime Count:  Yes
+Dispense Volume:  2
+Shake Speed:  Yes
+Shake Duration:  900 sec
+Post Shake Duration:  5
+Aspirate:  True
+Repeat:  2
+
+(Final solution of PBS to be injected and a short agitation, then hold)
