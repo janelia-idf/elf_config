@@ -61,7 +61,7 @@ setup_duration: 20
 system_prime_count: 1
 prime_duration: 10
 prime_aspirate_duration: 15
-load_duration_full: 6
+fill_duration_full: 6
 dispense_duration_full: 6
 chemical_aspirate_duration: 40
 chemical_separate_duration: 40

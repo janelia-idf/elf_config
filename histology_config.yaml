@@ -1,19 +1,93 @@
+head:
+  quad1:
+    analog_inputs:
+      low: 1
+      high: 9
+    channel: 1
+  quad2:
+    analog_inputs:
+      low: 2
+      high: 10
+    channel: 2
+  quad3:
+    analog_inputs:
+      low: 3
+      high: 11
+    channel: 3
+  quad4:
+    analog_inputs:
+      low: 4
+      high: 12
+    channel: 4
+  quad5:
+    analog_inputs:
+      low: 5
+      high: 13
+    channel: 5
+  quad6:
+    analog_inputs:
+      low: 6
+      high: 14
+    channel: 6
+  system:
+    channel: 7
+manifold:
+  blocking:
+    channel: 8
+  primary:
+    channel: 9
+  pbst:
+    channel: 10
+  secondary:
+    channel: 11
+  pbs:
+    channel: 12
+  aspirate:
+    channel: 14
+  seperate:
+    channel: 15
+setup_duration: 20
+system_prime_count: 1
+prime_duration: 10
+prime_aspirate_duration: 15
+fill_duration_full: 20
+dispense_duration_full: 10
+chemical_aspirate_duration: 40
+chemical_separate_duration: 40
+shake_speed_min: &shake_speed_min 200
+shake_speed_max: &shake_speed_max 3000
+aspirate_shake_speed: 200
+separate_shake_speed: 200
+inter_dispense_shake_speed: 400
+inter_dispense_shake_duration: 10
+shake_duration_min: 10
+shake_attempts: 2
+post_shake_off_duration: 5
+adc_sample_count: 11
+fill_duration_all_cylinders: 200
+fill_duration_one_cylinder: 50
+volume_crossover: 6
+volume_max: 10
+volume_threshold_initial: 1.0
+pre_cylinder_fill_duration: 2
+post_cylinder_fill_duration: 4
+balance_zero_duration: 4
 protocol:
-- chemical: pbt
+- chemical: blocking
   prime_count: 0
-  dispense_volume: 10
-  shake_speed: 200
-  shake_duration: 10
-  post_shake_duration: 0
+  dispense_volume: 2
+  shake_speed: 500
+  shake_duration: 1800
+  post_shake_duration: 5
   aspirate: true
   repeat: 0
-- chemical: heptane
-  prime_count: 1
+- chemical: primary
+  prime_count: 0
   dispense_volume: 2
-  shake_speed: 200
-  shake_duration: 10
-  post_shake_duration: 4
-  aspirate: false
+  shake_speed: 500
+  shake_duration: 10400
+  post_shake_duration: 5
+  aspirate: true
   repeat: 0
 - chemical: methanol
   prime_count: 1
