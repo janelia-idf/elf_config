@@ -1,4 +1,9 @@
 head:
+  primer:
+    analog_inputs:
+      low: 0
+      high: 8
+    channel: 0
   quad1:
     analog_inputs:
       low: 1
@@ -32,7 +37,7 @@ head:
   system:
     channel: 7
 manifold:
-  blocking:
+  block:
     channel: 8
   primary:
     channel: 9
@@ -41,11 +46,11 @@ manifold:
   secondary:
     channel: 11
   pbs:
-    channel: 12
+    channel: 20
   aspirate:
-    channel: 14
+    channel: 21
   seperate:
-    channel: 15
+    channel: 22
 setup_duration: 20
 system_prime_count: 1
 prime_duration: 10
@@ -73,43 +78,59 @@ pre_cylinder_fill_duration: 2
 post_cylinder_fill_duration: 4
 balance_zero_duration: 4
 protocol:
-- chemical: blocking
-  prime_count: 0
+- chemical: pbs
+  prime_count: 1
+  dispense_volume: 0
+  shake_speed: 200
+  shake_duration: 0
+  post_shake_duration: 0
+  aspirate: false
+  repeat: 0
+- chemical: block
+  prime_count: 1
   dispense_volume: 2
-  shake_speed: 500
+  shake_speed: 200
   shake_duration: 1800
   post_shake_duration: 5
   aspirate: true
   repeat: 0
 - chemical: primary
-  prime_count: 0
+  prime_count: 1
   dispense_volume: 2
-  shake_speed: 500
-  shake_duration: 10400
+  shake_speed: 200
+  shake_duration: 7200
   post_shake_duration: 5
   aspirate: true
   repeat: 0
 - chemical: pbst
   prime_count: 1
   dispense_volume: 2
-  shake_speed: 500
+  shake_speed: 200
   shake_duration: 900
   post_shake_duration: 5
   aspirate: true
   repeat: 2
 - chemical: secondary
-  prime_count: 0
+  prime_count: 1
   dispense_volume: 2
-  shake_speed: 500
+  shake_speed: 200
   shake_duration: 7200
-  post_shake_duration: 4
+  post_shake_duration: 5
   aspirate: true
   repeat: 0
 - chemical: pbs
   prime_count: 1
   dispense_volume: 2
-  shake_speed: 500
+  shake_speed: 200
   shake_duration: 900
   post_shake_duration: 5
   aspirate: true
-  repeat: 2
+  repeat: 1
+- chemical: pbs
+  prime_count: 0
+  dispense_volume: 4
+  shake_speed: 200
+  shake_duration: 0
+  post_shake_duration: 60000
+  aspirate: false
+  repeat: 0
