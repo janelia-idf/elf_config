@@ -33,7 +33,7 @@ head:
     channel: 7
 fill_duration_full: 20
 dispense_duration_full: 10
-dispense_duration_on: 1
+dispense_duration_on: 0.5
 dispense_duration_off: 1
 pre_cylinder_fill_duration: 2
 post_cylinder_fill_duration: 4
