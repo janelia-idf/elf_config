@@ -57,7 +57,7 @@ prime_duration: 10
 prime_aspirate_duration: 15
 fill_duration_full: 20
 dispense_duration_full: 10
-dispense_duration_on: 1
+dispense_duration_on: 0.5
 dispense_duration_off: 1
 chemical_aspirate_duration: 40
 chemical_separate_duration: 40
