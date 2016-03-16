@@ -31,15 +31,15 @@ head:
     channel: 6
   system:
     channel: 7
-fill_duration_full: 20
-dispense_duration_full: 10
+fill_duration_full: 24
+dispense_duration_full: 7
+dispense_duration_on: 0.5
+dispense_duration_off: 1
 pre_cylinder_fill_duration: 2
 post_cylinder_fill_duration: 4
 volume_crossover: 6
 volume_max: 10
 volume_threshold_initial: 1.0
-# fill_duration_all_cylinders: 250
-# fill_duration_one_cylinder: 100
 fill_duration_all_cylinders: 200
 fill_duration_one_cylinder: 50
 balance_zero_duration: 4

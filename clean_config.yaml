@@ -37,15 +37,31 @@ head:
   system:
     channel: 7
 manifold:
-  block:
+  c8:
     channel: 8
-  primary:
+  c9:
     channel: 9
-  pbst:
+  c10:
     channel: 10
-  secondary:
+  c11:
     channel: 11
-  pbs:
+  c12:
+    channel: 12
+  c13:
+    channel: 13
+  c14:
+    channel: 14
+  c15:
+    channel: 15
+  c16:
+    channel: 16
+  c17:
+    channel: 17
+  c18:
+    channel: 18
+  c19:
+    channel: 19
+  c20:
     channel: 20
   aspirate:
     channel: 21
@@ -57,8 +73,8 @@ prime_duration: 10
 prime_aspirate_duration: 15
 fill_duration_full: 20
 dispense_duration_full: 6
-dispense_duration_on: 0.25
-dispense_duration_off: 1
+dispense_duration_on: 6
+dispense_duration_off: 0
 chemical_aspirate_duration: 40
 chemical_separate_duration: 40
 shake_speed_min: &shake_speed_min 200
@@ -80,64 +96,43 @@ pre_cylinder_fill_duration: 2
 post_cylinder_fill_duration: 4
 balance_zero_duration: 4
 protocol:
-- chemical: pbs
+- chemical: c8
   prime_count: 1
-  dispense_volume: 0
-  shake_speed: 500
+  dispense_volume: 10
+  shake_speed: 200
   shake_duration: 0
   post_shake_duration: 0
-  aspirate: false
-  repeat: 0
-- chemical: block
-  prime_count: 1
-  dispense_volume: 6
-  shake_speed: 500
-  shake_duration: 1800
-  #shake_duration: 10
-  post_shake_duration: 5
   aspirate: true
-  repeat: 0
-- chemical: primary
-  prime_count: 1
-  dispense_volume: 6
-  shake_speed: 500
-  shake_duration: 7200
-  #shake_duration: 10
-  post_shake_duration: 5
-  aspirate: true
-  repeat: 0
-- chemical: pbst
-  prime_count: 1
-  dispense_volume: 6
-  shake_speed: 500
-  shake_duration: 480
-  #shake_duration: 10
-  post_shake_duration: 5
-  aspirate: true
-  repeat: 5
-- chemical: secondary
-  prime_count: 1
-  dispense_volume: 6
-  shake_speed: 500
-  shake_duration: 7200
-  #shake_duration: 10
-  post_shake_duration: 5
-  aspirate: true
-  repeat: 0
-- chemical: pbs
-  prime_count: 1
-  dispense_volume: 6
-  shake_speed: 500
-  shake_duration: 480
-  #shake_duration: 10
-  post_shake_duration: 5
-  aspirate: true
-  repeat: 5
-- chemical: pbs
+  repeat: 1
+- chemical: c9
   prime_count: 0
-  dispense_volume: 6
-  shake_speed: 500
+  dispense_volume: 10
+  shake_speed: 200
   shake_duration: 0
-  post_shake_duration: 100000
-  aspirate: false
-  repeat: 0
+  post_shake_duration: 0
+  aspirate: true
+  repeat: 1
+- chemical: c10
+  prime_count: 0
+  dispense_volume: 10
+  shake_speed: 200
+  shake_duration: 0
+  post_shake_duration: 0
+  aspirate: true
+  repeat: 1
+- chemical: c11
+  prime_count: 0
+  dispense_volume: 10
+  shake_speed: 200
+  shake_duration: 0
+  post_shake_duration: 0
+  aspirate: true
+  repeat: 1
+- chemical: c20
+  prime_count: 1
+  dispense_volume: 10
+  shake_speed: 200
+  shake_duration: 0
+  post_shake_duration: 0
+  aspirate: true
+  repeat: 1
