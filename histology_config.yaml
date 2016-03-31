@@ -71,8 +71,8 @@ shake_duration_min: 10
 shake_attempts: 2
 post_shake_off_duration: 5
 adc_sample_count: 11
-fill_duration_all_cylinders: 200
-fill_duration_one_cylinder: 50
+fill_duration_all_cylinders: 400
+fill_duration_one_cylinder: 150
 volume_crossover: 6
 volume_max: 10
 volume_threshold_initial: 1.0
