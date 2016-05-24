@@ -92,7 +92,7 @@ protocol:
   prime_count: 1
   dispense_volume: 6
   shake_speed: 500
-  shake_duration: 1800
+  shake_duration: 10
   post_shake_duration: 5
   aspirate: true
   repeat: 0
@@ -113,7 +113,7 @@ protocol:
   prime_count: 1
   dispense_volume: 6
   shake_speed: 500
-  shake_duration: 7200
+  shake_duration: 10
   post_shake_duration: 5
   aspirate: true
   repeat: 0
@@ -124,10 +124,10 @@ protocol:
   prime_count: 1
   dispense_volume: 6
   shake_speed: 500
-  shake_duration: 480
+  shake_duration: 10
   post_shake_duration: 5
   aspirate: true
-  repeat: 5
+  repeat: 1
 - chemical: block
   prime_count: 1
   dispense_volume: 6
@@ -145,7 +145,7 @@ protocol:
   prime_count: 1
   dispense_volume: 6
   shake_speed: 500
-  shake_duration: 7200
+  shake_duration: 10
   post_shake_duration: 5
   aspirate: true
   repeat: 0
@@ -156,15 +156,15 @@ protocol:
   prime_count: 1
   dispense_volume: 6
   shake_speed: 500
-  shake_duration: 480
+  shake_duration: 10
   post_shake_duration: 5
   aspirate: true
-  repeat: 5
+  repeat: 1
 - chemical: pbs
   prime_count: 0
   dispense_volume: 6
   shake_speed: 500
   shake_duration: 0
-  post_shake_duration: 100000
+  post_shake_duration: 30
   aspirate: false
   repeat: 0
